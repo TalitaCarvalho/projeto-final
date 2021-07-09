@@ -1,0 +1,354 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navegacao {
+  position: fixed;
+  width: 100%;
+  background-color: wheat;
+}
+
+.nav-itens {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  padding: 1% 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url("./img/banner.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 1%;
+}
+
+.imagem {
+  position: relative;
+  padding: auto;
+  max-width: 900px;
+}
+
+.banner-content {
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgb(248, 247, 247);
+  text-align: center;
+  height: 100%;
+}
+
+.slogan {
+  padding-top: 30%;
+  width: 50%;
+}
+
+.riscado {
+  padding-bottom: 50%;
+  width: 50%;
+}
+
+.textobanner {
+  padding-top: 10%;
+  font-size: 200%;
+}
+
+.chamado {
+  padding-top: 5%;
+  font-size: 150%;
+}
+
+/* a patir daqui será trabalhada a primeira seção */
+
+.textoum {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.citacao {
+  margin-left: 1em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tigelas {
+  width: 60%;
+  padding-left: 10%;
+}
+
+.section {
+  line-height: 1.5em;
+  justify-content: space-between;
+  display: flex;
+}
+
+.colunaum {
+  margin-left: 2%;
+  width: 30%;
+}
+
+.colunadois {
+  text-align: center;
+  width: 30%;
+}
+
+.pratosaudavel {
+  margin-top: 15%;
+  width: 73%;
+  height: 30%;
+}
+
+.panqueca {
+  margin-top: 8%;
+}
+
+.dicas {
+  padding-top: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.colunatres {
+  background-color: rgb(137, 212, 15);
+  width: 35%;
+}
+
+.cada-comida {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tipos-comidas {
+  padding-left: 3%;
+}
+
+.vegana {
+  font-weight: bold;
+}
+
+.vegetariana {
+  font-weight: bold;
+}
+
+.outros {
+  font-weight: bold;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* a partir daqui será trabalhada a segunda seção */
+
+.coluna-quatro {
+  /* margin-left: 2%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.loja-vegana {
+  padding-top: 10%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.coluna-cinco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+
+.coluna-seis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.loja-outros {
+  padding-top: 7.5%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  width: 150px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.59);
+  margin: 1.5em 0;
+  padding: 1.5em;
+  background-color: white;
+}
+
+.lojas-section {
+  background-image: url("./img/waves.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.lojas {
+  padding: 1% 0;
+}
+
+.lojas h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  color: rgb(61, 92, 12);
+  background-color: rgb(137, 212, 15);
+  padding: 0.5% 0;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 15px;
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links p {
+  text-align: center;
+  margin-top: 1em;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.receitas {
+  background-attachment: fixed;
+  background-image: url("https://www.bemafiada.com/wp-content/uploads/2021/01/livro-de-receitas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.receita-titulo {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.receitas-pelicula {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 1.3em;
+}
+
+.receitas-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+
+}
+
+.receita {
+  width: 40%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.receita h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+.ingredientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+
+.ingredientes img {
+  width: 50%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.ingredientes-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 45%;
+}
+
+.ingredientes-lista p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+  font-family: 'Playfair Display', serif;
+}
+
+.preparo p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+  font-family: 'Playfair Display', serif;
+}
+
+.acesso {
+  color: rgb(116, 182, 11);
+ text-decoration:none ; 
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: wheat;
+  padding: 1% 0;
+}
+
+.autora {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.perfil {
+  background-image: url("./img/perfil2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border: 8px solid rgb(116, 182, 11);
+  border-radius: 100px;
+}
+
+.conteudo-texto {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+
