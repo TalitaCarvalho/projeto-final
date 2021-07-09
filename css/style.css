@@ -22,7 +22,7 @@ body {
 }
 
 .banner {
-  background-image: url("./img/banner.jpeg");
+  background-image: url("../img/banner.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -205,7 +205,7 @@ body {
 }
 
 .lojas-section {
-  background-image: url("./img/waves.svg");
+  background-image: url("../img/waves.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -336,7 +336,7 @@ body {
 }
 
 .perfil {
-  background-image: url("./img/perfil2.jpg");
+  background-image: url("../img/perfil2.jpg");
   background-position: center;
   background-size: cover;
   width: 120px;
